@@ -75,10 +75,3 @@ vec4 tanh(const vec4 &a);
 float dot(const vec2 &a, const vec2 &b);
 float dot(const vec3 &a, const vec3 &b);
 float length(const vec3 &a);
-
-// for(float i,z,d,h;i++<4e1;o+=vec4(h,1,4,1)/d) {
-//     vec3 p = z * normalize(FC.rgb*2.-r.xyy),a;a.y++;
-//     p.z+=6.;a=mix(dot(a,p)*a,p,sin(h=t-length(p*p.yzx)))+cos(h)*cross(a,p);
-//     for(d=0.;d++<9.;a-=cos(round(a*d)+t).zxy/d);z+=d=.1*length(a.xz);h=p.y+4.;
-// }
-// o=tanh(o/2e3);

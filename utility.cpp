@@ -54,8 +54,6 @@ vec4 sin(const vec4 &a) {
     return vec4(sinf(a.x), sinf(a.y), sinf(a.z), sinf(a.w));
 }
 
-// --- vec3 operators -------------------------------------------------
-
 vec3 operator *(const vec3 &a, float s) {
     return vec3(a.x * s, a.y * s, a.z * s);
 }
@@ -122,8 +120,6 @@ vec3 &operator +=(vec3 &a, float s) {
     a = a + s;
     return a;
 }
-
-
 
 vec4 operator /(const vec4 &a, float s) {
     return vec4(a.x / s, a.y / s, a.z / s, a.w / s);
